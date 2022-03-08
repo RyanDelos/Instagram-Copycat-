@@ -6,11 +6,9 @@
 
 html {
   font-size: 62.5%;
-  /* overflow-x: hidden; */
 }
 
 body {
-  /* background-color: rgba(255, 255, 255, 0.523); */
   background-color: #d6d6d610;
   font-family: 'Roboto';
   color: #333;
@@ -84,8 +82,8 @@ body {
   flex-direction: row;
   /* text-align: center; */
   color: #a7a7a7;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 
@@ -176,7 +174,7 @@ body {
 
 .cta-container {
   max-width: 40rem;
-  margin: auto;
+  margin: auto auto 4rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -187,6 +185,7 @@ body {
 .google-play {
   width: auto;
   height: 4.5rem;
+  cursor: pointer;
 }
 
 .apple-app-store {
@@ -194,3 +193,42 @@ body {
 }
 
 /* FOOTER SECTION */
+
+.links {
+  margin-bottom: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0 2rem 0 2rem;
+}
+
+.footer-link {
+  color: #a7a7a7;
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+/* Copyright section */
+
+.copyright-section {
+  font-size: 1.4rem;
+  color: #a7a7a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.copyright-section select {
+  font-size: 1.4rem;
+  color: #a7a7a7;
+  border: none;
+  background-color: #d6d6d610;
+}
